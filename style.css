@@ -1,0 +1,44 @@
+h1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 15%;
+  left: 50%;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+#container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  top: 30%;
+  left: 31%;
+}
+
+#grey {
+  background-color: grey;
+  padding: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+#red {
+  background-color: red;
+  width: 50px;
+  padding: 50px;
+  border: 1px solid black;
+}
+#green {
+  background-color: green;
+  padding: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+#blue {
+  background-color: blue;
+  padding: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
